@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PracticalTestDotNet.Api/PracticalTestDotNet.Api.csproj" />
+    <Project Path="src/PracticalTestDotNet.Application/PracticalTestDotNet.Application.csproj" />
+    <Project Path="src/PracticalTestDotNet.Domain/PracticalTestDotNet.Domain.csproj" />
+    <Project Path="src/PracticalTestDotNet.Infrastructure/PracticalTestDotNet.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PracticalTestDotNet.IntegrationTests/PracticalTestDotNet.IntegrationTests.csproj" />
+    <Project Path="tests/PracticalTestDotNet.UnitTests/PracticalTestDotNet.UnitTests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,11 @@
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\bin\Debug\net10.0\PracticalTestDotNet.Domain.deps.json
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\bin\Debug\net10.0\PracticalTestDotNet.Domain.dll
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\bin\Debug\net10.0\PracticalTestDotNet.Domain.pdb
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\PracticalTestDotNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\PracticalTestDotNet.Domain.AssemblyInfoInputs.cache
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\PracticalTestDotNet.Domain.AssemblyInfo.cs
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\PracticalTestDotNet.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\PracticalTestDotNet.Domain.dll
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\refint\PracticalTestDotNet.Domain.dll
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\PracticalTestDotNet.Domain.pdb
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Domain\obj\Debug\net10.0\ref\PracticalTestDotNet.Domain.dll

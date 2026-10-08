@@ -1,0 +1,203 @@
+[
+  {
+    "ContainingType": "PracticalTestDotNet.Api.Endpoints.OrderEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrderEndpoints\u003Eb__0_0",
+    "RelativePath": "api/orders/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PracticalTestDotNet.Application.Orders.Commands.CreateOrder.CreateOrderCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticalTestDotNet.Application.Dtos.OrderDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ],
+    "EndpointName": "CreateOrder",
+    "Summary": "Cria um novo pedido com no m\u00EDnimo 1 item (Requer Autentica\u00E7\u00E3o)"
+  },
+  {
+    "ContainingType": "PracticalTestDotNet.Api.Endpoints.OrderEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrderEndpoints\u003Eb__0_1",
+    "RelativePath": "api/orders/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticalTestDotNet.Application.Common.PaginatedList\u00601[[PracticalTestDotNet.Application.Dtos.OrderDto, PracticalTestDotNet.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ],
+    "EndpointName": "GetOrdersPaginated",
+    "Summary": "Lista pedidos com pagina\u00E7\u00E3o (Requer Autentica\u00E7\u00E3o)"
+  },
+  {
+    "ContainingType": "PracticalTestDotNet.Api.Endpoints.OrderEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrderEndpoints\u003Eb__0_2",
+    "RelativePath": "api/orders/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticalTestDotNet.Application.Dtos.OrderDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ],
+    "EndpointName": "GetOrderById",
+    "Summary": "Retorna o pedido por ID (Requer Autentica\u00E7\u00E3o)"
+  },
+  {
+    "ContainingType": "PracticalTestDotNet.Api.Endpoints.OrderEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapOrderEndpoints\u003Eb__0_3",
+    "RelativePath": "api/orders/{id:guid}/cancel",
+    "HttpMethod": "PATCH",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticalTestDotNet.Application.Dtos.OrderDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "Orders"
+    ],
+    "EndpointName": "CancelOrder",
+    "Summary": "Cancela um pedido existente em status Pending (Requer Autentica\u00E7\u00E3o)"
+  },
+  {
+    "ContainingType": "PracticalTestDotNet.Api.Endpoints.AuthEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthEndpoints\u003Eb__2_0",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PracticalTestDotNet.Application.Dtos.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticalTestDotNet.Application.Dtos.LoginResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ],
+    "Tags": [
+      "Auth"
+    ],
+    "EndpointName": "Login",
+    "Summary": "Autentica o usu\u00E1rio dev@martech.com e retorna token JWT"
+  }
+]

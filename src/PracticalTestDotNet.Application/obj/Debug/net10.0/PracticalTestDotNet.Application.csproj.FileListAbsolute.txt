@@ -1,0 +1,15 @@
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\PracticalTestDotNet.Application.csproj.AssemblyReference.cache
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\PracticalTestDotNet.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\PracticalTestDotNet.Application.AssemblyInfoInputs.cache
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\PracticalTestDotNet.Application.AssemblyInfo.cs
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\PracticalTestDotNet.Application.csproj.CoreCompileInputs.cache
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\bin\Debug\net10.0\PracticalTestDotNet.Application.deps.json
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\bin\Debug\net10.0\PracticalTestDotNet.Application.dll
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\bin\Debug\net10.0\PracticalTestDotNet.Application.pdb
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\bin\Debug\net10.0\PracticalTestDotNet.Domain.dll
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\bin\Debug\net10.0\PracticalTestDotNet.Domain.pdb
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\Practica.3D56A39C.Up2Date
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\PracticalTestDotNet.Application.dll
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\refint\PracticalTestDotNet.Application.dll
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\PracticalTestDotNet.Application.pdb
+D:\GitHub\PracticalTestDotNet\src\PracticalTestDotNet.Application\obj\Debug\net10.0\ref\PracticalTestDotNet.Application.dll

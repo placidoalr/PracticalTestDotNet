@@ -1,0 +1,6 @@
+{
+  "PracticalTestDotNet.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\PracticalTestDotNet\\src\\PracticalTestDotNet.Api",
+  "PracticalTestDotNet.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\PracticalTestDotNet\\src\\PracticalTestDotNet.Application",
+  "PracticalTestDotNet.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\PracticalTestDotNet\\src\\PracticalTestDotNet.Domain",
+  "PracticalTestDotNet.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\PracticalTestDotNet\\src\\PracticalTestDotNet.Infrastructure"
+}

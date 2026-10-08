@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: practical_test_dotnet_api
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__DefaultConnection=Data Source=/app/orders.db
+      - JwtSettings__Secret=SuperSecretKeyForPracticalTestDotNetSeniorCandidate2026!
+    volumes:
+      - sqlite_data:/app
+
+  sonarqube:
+    image: sonarqube:community
+    container_name: practical_test_sonarqube
+    ports:
+      - "9000:9000"
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+    volumes:
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_logs:/opt/sonarqube/logs
+
+volumes:
+  sqlite_data:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_logs:

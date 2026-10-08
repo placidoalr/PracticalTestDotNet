@@ -1,0 +1,6 @@
+@PracticalTestDotNet.Api_HostAddress = http://localhost:5252
+
+GET {{PracticalTestDotNet.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
